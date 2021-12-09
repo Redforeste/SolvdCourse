@@ -23,10 +23,10 @@ public class Main {
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
 
-            System.out.println("Enter array length: ");
+            System.out.println("Введіть к-ксть елементів масиву: ");
             int size = input.nextInt();
             int array[] = new int[size];
-            System.out.println("Insert array elements:");
+            System.out.println("Введіть елементи через пробіл:");
 
             for (int i = 0; i < size; i++) {
                 array[i] = input.nextInt();
